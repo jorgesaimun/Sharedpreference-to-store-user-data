@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:background="@color/material_dynamic_neutral70"
+    android:gravity="center"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+
+        android:id="@+id/userNameId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="user name :"
+
+        />
+
+    <EditText
+        android:id="@+id/passwordId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="password:"
+
+        />
+
+    <Button
+
+        android:id="@+id/saveBtnId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Save"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/showBtnId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Show Data"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/showDataTextId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        />
+
+    <Button
+        android:id="@+id/resetBtnId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Reset"
+        android:textAllCaps="false" />
+
+</LinearLayout>
